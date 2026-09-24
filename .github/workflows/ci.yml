@@ -16,3 +16,64 @@ jobs:
 
       - name: Show operating system
         run: uname -a
+
+      - name: Print message
+        run: echo "Hello World!! from Tanmay Mittal"
+
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print message
+        run: echo "Hello Tanmay Mittal!"
+
+      - name: Show date
+        run: date
+
+      - name: Show operating system
+        run: uname -a
+
+      - name: Print message
+        run: echo "Hello World!!"
+
+
+
+
+
+
+# name: Hello GitHub Actions
+
+# on:
+#   workflow_dispatch:
+
+# jobs:
+#   hello:
+#     runs-on: ubuntu-latest
+
+#     steps:
+#       - name: Print message
+#         run: echo "Hello Tanmay Mittal!"
+
+#       - name: Show date
+#         run: date
+
+#       - name: Show operating system
+#         run: uname -a
+
+#       - name: Print message
+#         run: echo "Hello World!! from Tanmay Mittal"
+
+#   build:
+    
+#      steps:
+#       - name: Print message 
+#         run: echo "Hello Tanmay Mittal!"
+
+#       - name: Show date
+#         run: date
+
+#       - name: Show operating system
+#         run: uname -a
+
+#       - name: Print message
+#         run: echo "Hello World!!"
